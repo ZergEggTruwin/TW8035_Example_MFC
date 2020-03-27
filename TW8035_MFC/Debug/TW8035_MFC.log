@@ -1,0 +1,11 @@
+﻿  TW8035_MFCDlg.cpp
+c:\visualstudioworkspace\tw_8035_dll\tw_8035_dll\tw8035_api_def.h(30): warning C4190: 'getTW8035PortList'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>'을(를) 반환합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxstr.h(89): note: 'ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  TW8035_MFC.cpp
+c:\visualstudioworkspace\tw_8035_dll\tw_8035_dll\tw8035_api_def.h(30): warning C4190: 'getTW8035PortList'에 C 링크를 지정했으나 C와 호환되지 않는 UDT 'ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>'을(를) 반환합니다.
+  c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afxstr.h(89): note: 'ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+TW8035_MFCDlg.obj : error LNK2019: __imp__getTW8035PortList 외부 기호(참조 위치: "protected: virtual int __thiscall CTW8035_MFCDlg::OnInitDialog(void)" (?OnInitDialog@CTW8035_MFCDlg@@MAEHXZ) 함수)에서 확인하지 못했습니다.
+C:\VisualStudioWorkspace\TW8035_MFC\Debug\TW8035_MFC.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
